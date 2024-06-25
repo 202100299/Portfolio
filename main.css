@@ -1,0 +1,117 @@
+/*ALL*/
+ul {
+    list-style:none;
+}
+body {
+    background-color: #1E1E1E;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+/*HEADER*/
+header {
+    background-color: #181818;
+    color: white;
+    display: flex;
+    align-items: stretch;
+}
+header #home {
+    font-size: 30px;
+    font-family: "Inspiration", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 40px;
+    padding-right: 35%;
+}
+#navbar {
+    display: flex;
+}
+#navbar li {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid #F2CDA1;
+    border-width: 0px 1.5px ;
+    padding: 0px 50px;
+    align-content: center;
+}
+#navbar li:hover {
+    background-color: #F2CDA1;
+}
+
+/*BODY*/
+main {
+    background-color: #1E1E1E;
+    color: white;
+    display: flex;
+}
+#label{
+    margin: 100px 50px 100px 15%;
+}
+#label-title h1{
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+#label-btn {
+    background-color: #181818;
+    width: 100px;
+    padding-left: 10px;
+    height: 40px;
+    margin: 50px 100px 100px 100px;
+    align-content: center;
+    border-radius: 3px;
+}
+#label-btn:hover {
+    background-color: #F2CDA1;
+}
+#description{
+    font-size: 20px;
+    margin: 60px 100px 100px 100px;
+}
+
+
+/*FOOTER*/
+footer {
+    background-color: #181818;
+    color: white;
+    display: flex;
+}
+footer div {
+    margin-left: 35%;
+}
+
+/*MEDIA-QUERIES*/
+@media only screen and (max-width: 1300px) {
+    footer div {
+        margin-left: 15%;
+    }
+    header #home {
+        padding-right: 15%;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    footer div {
+        margin-left: 5%;
+    }
+    header #home {
+        padding-right: 5%;
+    }
+    main {
+        display: inline;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    /* For mobile phones: */
+    header #home {
+        padding-right: 0%;
+        
+    }
+    header {
+        align-content: center;
+        display: block;
+    }
+    #navbar li {
+        padding: 0px 18px;
+    }
+    main {
+        display: inline;
+    }
+  }
